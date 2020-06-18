@@ -15,7 +15,7 @@ const HatsPage = () => {
   );
 };
 
-const TopicPage = () => {
+const TshirtsPage = () => {
   return (
     <div>
     <h1>Topic page </h1>
@@ -23,7 +23,7 @@ const TopicPage = () => {
   );
 };
 
-const HatsPage = () => {
+const CapsPage = () => {
   return (
    <div>
      <h1>Hats page</h1>
