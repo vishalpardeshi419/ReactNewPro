@@ -23,6 +23,22 @@ const TopicPage = () => {
   );
 };
 
+const HatsPage = () => {
+  return (
+   <div>
+     <h1>Hats page</h1>
+   </div>
+  );
+};
+
+const TopicPage = () => {
+  return (
+    <div>
+    <h1>Topic page </h1>
+  </div>
+  );
+};
+
 function App() {
   return (
     <div>
@@ -33,7 +49,6 @@ function App() {
         <Route path='/hats/:hatsId' component={TopicPage} /> 
       </Switch>
       </BrowserRouter>
-
     </div>
   );
 }
